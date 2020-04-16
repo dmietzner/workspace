@@ -1,0 +1,100 @@
+:root {
+    --top-row-height: 120px;
+    --gutter: 20px;
+    --blue: #00adee;
+    --light-blue: rgba(0, 173, 238, 0.4);
+    --green: #8cc36f;
+    --light-green: rgba(170, 239, 135, 0.8);  
+    --bg-color: rgba(192, 192, 192, 0.1);
+    --subheading: rgba(0, 0, 0, 0.6);
+  }
+
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+.subheading 
+{
+    top: 25px;
+    margin-left: 480px;
+    display: inline;
+    color: rgba(0, 0, 0, 0.6);    
+}
+* li
+{
+list-style:none;
+padding:8px;
+}
+main > img
+{
+    display:inline;    
+    width:75%;
+    margin-left:150px;
+}
+header > img
+{
+    top:35px;
+    height:100px;
+    margin-left:140px;
+    position:absolute;
+
+}
+aside > img{
+    height:125px;
+    width:125px;
+    display:block;
+    top:0;
+}
+* aside > nav > ul {
+    width: 125px;
+    margin: 10px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    position: absolute;
+    border-right: solid;
+    border-right-color: rgba(0, 173, 238, 0.4);
+    border-right-width:.5px; 
+}
+#our-work 
+{
+    width: 250px;
+    text-align: left;
+    display: inline-block;
+    position: center;
+}
+#what-we-do 
+{
+    width: 250px;
+    display: inline-block;
+    text-align: left;
+    position: center;
+    margin-left:250px;
+}
+#contact-us 
+{
+    width: 250px;
+    display: inline-block;
+    text-align: left;
+    position: center;
+}
+* a {
+    color: rgba(0, 173, 238, 0.4);
+    text-decoration: none;
+    border-bottom: solid;
+    border-color: rgba(0, 173, 238, 0.4);
+    border-width: .5px;
+}
+h2 
+{
+   color:green;
+   font-size:large;
+}
+
+footer{
+    position:absolute;
+    padding-top:30px;
+    padding-left:250px;
+    font-size:small;
+}
