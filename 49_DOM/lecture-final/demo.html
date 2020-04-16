@@ -1,0 +1,49 @@
+<html>
+    <body>
+        <table>
+            <tr>
+                <td id="content">
+                    <span>This is a span</span>
+                    This is some text.
+                </td>
+                <td id="content2">
+                    This is some more text.
+                </td>
+            </tr>
+        </table>
+        <input id="myInput" value="Hello Cleveland"></input>
+    </body>
+</html>
+
+<style>
+    table > tbody > tr > td {
+        background-color: red;
+    }
+    .green {
+        background-color: blue;
+    }
+    .bigBorder {
+        padding: 15px;
+    }
+</style>
+
+<script>
+    const element = document.querySelector("tr > td");
+    element.innerText = "Hello Pittsburgh!<p>Hello Seattle!</p>";
+    element.classList.add("green");
+    const otherElement = document.getElementById("content2");
+    otherElement.innerHTML = "Hello Pittsburgh!<p>Hello Seattle!</p>";
+    const inputElement = document.getElementById('myInput');
+    //alert(inputElement.value);
+    inputElement.value = "Hello Yarrow Point";
+    element.classList.remove("green");
+    const newElement = document.createElement("div");
+    newElement.innerText = "Hello Henry Edwards";
+    otherElement.insertAdjacentElement("afterbegin",newElement);
+    const diffElement = document.createElement("span");
+    diffElement.innerText = "This is span";
+    otherElement.insertAdjacentElement("afterbegin",diffElement);
+    const parentTR = otherElement.parentNode;
+    parentTR.classList.add("bigBorder");
+    parentTR.removeChild(element);
+</script>
