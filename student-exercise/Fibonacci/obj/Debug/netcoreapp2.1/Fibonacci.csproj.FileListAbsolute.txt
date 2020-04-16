@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\bin\Debug\netcoreapp2.1\Fibonacci.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\bin\Debug\netcoreapp2.1\Fibonacci.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\bin\Debug\netcoreapp2.1\Fibonacci.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\bin\Debug\netcoreapp2.1\Fibonacci.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\bin\Debug\netcoreapp2.1\Fibonacci.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\obj\Debug\netcoreapp2.1\Fibonacci.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\obj\Debug\netcoreapp2.1\Fibonacci.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\obj\Debug\netcoreapp2.1\Fibonacci.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\obj\Debug\netcoreapp2.1\Fibonacci.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\05_Command_Line_Programs\student-exercise\Fibonacci\obj\Debug\netcoreapp2.1\Fibonacci.pdb
