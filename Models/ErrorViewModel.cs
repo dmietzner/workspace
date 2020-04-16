@@ -1,6 +1,6 @@
 using System;
 
-namespace Capstone.Web.Models
+namespace Forms.Web.Models
 {
     public class ErrorViewModel
     {

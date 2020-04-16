@@ -4,50 +4,57 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Capstone.Web.Models;
-using Capstone.Web.DAL;
-using Microsoft.AspNetCore.Http;
+using Forms.Web.Models;
+using Forms.Web.DAL;
 
-namespace Capstone.Web.Controllers
+namespace Forms.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private IParkDao ParkDao;
-        private IWeatherDao WeatherDao;
-        public HomeController(IParkDao parkDao, IWeatherDao weatherDao)
+        private ICityDAO cityDao;
+
+        public HomeController(ICityDAO cityDao)
         {
-            ParkDao = parkDao;
-            WeatherDao = weatherDao;
+            this.cityDao = cityDao;
         }
+
+        /// <summary>
+        /// Represents an index action.
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
-            IList<Park> parks = ParkDao.GetAllParks();
-            return View(parks);
+            return View();
         }
-        public IActionResult SaveTempChoice(string tempScale, string parkCode)
+
+        /// <summary>
+        /// Represents a search action.
+        /// </summary>
+        /// <returns></returns>
+        public IActionResult Search()
         {
-            ParkWeather parkWeather = new ParkWeather();
-            parkWeather.TempScale = tempScale;
-            HttpContext.Session.SetString("TempScale", tempScale);
-            return RedirectToAction("Detail", new{ parkCode });
+            // Display a search page
+            return View();
         }
-        private string GetTempChoice()
+        
+        /// <summary>
+        /// Represents a search result.
+        /// </summary>
+        /// <param name="searchModel"></param>
+        /// <returns></returns>
+        public IActionResult Results(CitySearchModel searchModel)
         {
-            string tempChoice = HttpContext.Session.GetString("TempScale");
-            return tempChoice;           
+            // Use the search model to get our data
+            // Connection Strings are outside of the scope of this content            
+            var cities = cityDao.GetCities(searchModel.CountryCode, searchModel.District);
+
+            // Update the search model with the cities returned
+            searchModel.Results = cities;
+
+            // Display search results
+            return View(searchModel);
         }
-        public IActionResult Detail(string parkCode)
-        {            
-            ParkWeather parkWeather = new ParkWeather();
-            parkWeather.Park = ParkDao.GetSelectedPark(parkCode);
-            parkWeather.Weathers = WeatherDao.GetAllWeathers(parkCode);
-            parkWeather.TempScale = GetTempChoice();
-            
-            return View(parkWeather);
-        }
-
-
-
+        
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
