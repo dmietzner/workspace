@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\bin\Debug\netcoreapp2.1\Exercises.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\bin\Debug\netcoreapp2.1\Exercises.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\bin\Debug\netcoreapp2.1\Exercises.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\bin\Debug\netcoreapp2.1\Exercises.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\bin\Debug\netcoreapp2.1\Exercises.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\obj\Debug\netcoreapp2.1\Exercises.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\obj\Debug\netcoreapp2.1\Exercises.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\obj\Debug\netcoreapp2.1\Exercises.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\obj\Debug\netcoreapp2.1\Exercises.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\16_Test_Driven_Development\student-exercise\Exercises\obj\Debug\netcoreapp2.1\Exercises.pdb
