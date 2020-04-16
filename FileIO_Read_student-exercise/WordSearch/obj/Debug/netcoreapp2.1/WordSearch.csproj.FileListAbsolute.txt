@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\bin\Debug\netcoreapp2.1\WordSearch.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\bin\Debug\netcoreapp2.1\WordSearch.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\bin\Debug\netcoreapp2.1\WordSearch.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\bin\Debug\netcoreapp2.1\WordSearch.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\bin\Debug\netcoreapp2.1\WordSearch.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\obj\Debug\netcoreapp2.1\WordSearch.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\obj\Debug\netcoreapp2.1\WordSearch.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\obj\Debug\netcoreapp2.1\WordSearch.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\obj\Debug\netcoreapp2.1\WordSearch.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\17_FileIO_Reading_in\student-exercise\WordSearch\obj\Debug\netcoreapp2.1\WordSearch.pdb
