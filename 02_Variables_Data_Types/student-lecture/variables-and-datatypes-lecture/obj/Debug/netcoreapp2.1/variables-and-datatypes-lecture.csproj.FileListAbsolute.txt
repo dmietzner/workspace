@@ -1,0 +1,13 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\variables-and-datatypes-lecture.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\variables-and-datatypes-lecture.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\variables-and-datatypes-lecture.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\variables-and-datatypes-lecture.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\bin\Debug\netcoreapp2.1\variables-and-datatypes-lecture.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\obj\Debug\netcoreapp2.1\variables-and-datatypes-lecture.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\obj\Debug\netcoreapp2.1\variables-and-datatypes-lecture.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\obj\Debug\netcoreapp2.1\variables-and-datatypes-lecture.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\obj\Debug\netcoreapp2.1\variables-and-datatypes-lecture.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-lecture\variables-and-datatypes-lecture\obj\Debug\netcoreapp2.1\variables-and-datatypes-lecture.pdb

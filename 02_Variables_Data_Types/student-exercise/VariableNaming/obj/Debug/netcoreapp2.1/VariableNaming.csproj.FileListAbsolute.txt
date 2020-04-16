@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\obj\Debug\netcoreapp2.1\VariableNaming.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\obj\Debug\netcoreapp2.1\VariableNaming.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\obj\Debug\netcoreapp2.1\VariableNaming.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\bin\Debug\netcoreapp2.1\VariableNaming.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\bin\Debug\netcoreapp2.1\VariableNaming.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\bin\Debug\netcoreapp2.1\VariableNaming.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\bin\Debug\netcoreapp2.1\VariableNaming.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\bin\Debug\netcoreapp2.1\VariableNaming.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\obj\Debug\netcoreapp2.1\VariableNaming.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\02_Variables_Data_Types\student-exercise\VariableNaming\obj\Debug\netcoreapp2.1\VariableNaming.pdb
