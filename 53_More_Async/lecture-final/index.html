@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>National Park Geek</title>
+
+        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/site.css" />
+        <script src="js/parkAPI.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <img class="logo" src="img/logo.png" />
+    <nav class="navbar navbar-inverse">
+        <div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a  href="#">Survey</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="body-content">
+        <div id="parkList">
+            <template id="parkListing_template">
+                <a>
+                    <div style="display: flex;justify-content:space-between;margin-bottom:10px;">
+                        <div><img id="parkImage" /></div>
+                        <div>
+                            <h2></h2>
+                            <div id="parkDescription"></div>
+                        </div>
+                    </div>
+                </a>
+            </template>
+        </div>
+        <hr />
+        <footer>
+            <p>&copy; 2020 - National Park Geek</p>
+        </footer>
+    </div>
+
+    <template id="park-detail">
+		<div>
+            <div><img id="parkDetailImage" style="width:100%" /></div>
+            <h1 id="parkDetailTitle"></h1>
+            <div id="parkStats" style="display: flex;justify-content:space-between;margin-bottom:10px;">
+                <div><label id="State">State: </label></div>
+                <div><label id="Acreage">Acreage: </label></div>
+                <div><label id="ElevationInFeet">Elevation In Feet: </label></div>
+                <div><label id="MilesOfTrail"></label></div>
+                <div><label id="NumberOfCampsites"></label></div>
+                <div><label id="Climate"></label></div>
+                <div><label id="YearFounded"></label></div>
+                <div><label id="AnnualVisitorCount"></label></div>
+                <div><label id="EntryFee"></label></div>
+                <div><label id="NumberOfAnimalSpecies"></label></div>
+            </div>
+        </div>
+        <div id="quote">
+            <strong><em>-</em></strong>
+        </div>
+        <div id="parkDetailDescription">
+            
+        </div>
+        <div id="weatherDiv" style="display: flex;justify-content:space-between;margin-bottom:10px;align-content:center;">
+         </div>
+   
+    </template>
+  
+    <template id="weatherTemplate">
+        <div id="weatherBlock" class="weatherBlock">
+            <img  />
+            <p>
+                <label id="highTemp">High</label> 
+                <label id="lowTemp">Low</label> 
+            </p>
+            <span id="recommendation"></span>
+        </div>
+    </template>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js">
+        </script>
+
+</body>
+</html>
