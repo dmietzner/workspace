@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\08_Collections_Part_2\\student-exercise\\Exercises\\Exercises.csproj": {}
+    "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\07_Collections_Part_1\\lecture-final\\CollectionsLectureNotes\\CollectionsLectureNotes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\08_Collections_Part_2\\student-exercise\\Exercises\\Exercises.csproj": {
+    "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\07_Collections_Part_1\\lecture-final\\CollectionsLectureNotes\\CollectionsLectureNotes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\08_Collections_Part_2\\student-exercise\\Exercises\\Exercises.csproj",
-        "projectName": "Exercises",
-        "projectPath": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\08_Collections_Part_2\\student-exercise\\Exercises\\Exercises.csproj",
+        "projectUniqueName": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\07_Collections_Part_1\\lecture-final\\CollectionsLectureNotes\\CollectionsLectureNotes.csproj",
+        "projectName": "CollectionsLectureNotes",
+        "projectPath": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\07_Collections_Part_1\\lecture-final\\CollectionsLectureNotes\\CollectionsLectureNotes.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\08_Collections_Part_2\\student-exercise\\Exercises\\obj\\",
+        "outputPath": "C:\\Users\\Student\\workspace\\danmietzner-c\\module-1\\07_Collections_Part_1\\lecture-final\\CollectionsLectureNotes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.0"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.0": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -39,12 +39,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.0": {
+        "netcoreapp2.1": {
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.0, )",
+              "version": "[2.1.0, )",
               "autoReferenced": true
             }
           },

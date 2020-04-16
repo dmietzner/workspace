@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\obj\Debug\netcoreapp2.0\Exercises.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\obj\Debug\netcoreapp2.0\Exercises.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\obj\Debug\netcoreapp2.0\Exercises.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\bin\Debug\netcoreapp2.0\Exercises.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\bin\Debug\netcoreapp2.0\Exercises.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\bin\Debug\netcoreapp2.0\Exercises.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\bin\Debug\netcoreapp2.0\Exercises.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\bin\Debug\netcoreapp2.0\Exercises.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\obj\Debug\netcoreapp2.0\Exercises.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\08_Collections_Part_2\student-exercise\Exercises\obj\Debug\netcoreapp2.0\Exercises.pdb
