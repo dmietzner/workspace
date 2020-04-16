@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\bin\Debug\netcoreapp2.1\FizzWriter.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\bin\Debug\netcoreapp2.1\FizzWriter.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\bin\Debug\netcoreapp2.1\FizzWriter.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\bin\Debug\netcoreapp2.1\FizzWriter.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\bin\Debug\netcoreapp2.1\FizzWriter.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\obj\Debug\netcoreapp2.1\FizzWriter.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\obj\Debug\netcoreapp2.1\FizzWriter.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\obj\Debug\netcoreapp2.1\FizzWriter.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\obj\Debug\netcoreapp2.1\FizzWriter.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FizzWriter\obj\Debug\netcoreapp2.1\FizzWriter.pdb

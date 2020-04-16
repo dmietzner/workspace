@@ -1,0 +1,10 @@
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\bin\Debug\netcoreapp2.1\FileSplitter.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\bin\Debug\netcoreapp2.1\FileSplitter.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\bin\Debug\netcoreapp2.1\FileSplitter.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\bin\Debug\netcoreapp2.1\FileSplitter.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\bin\Debug\netcoreapp2.1\FileSplitter.pdb
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\obj\Debug\netcoreapp2.1\FileSplitter.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\obj\Debug\netcoreapp2.1\FileSplitter.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\obj\Debug\netcoreapp2.1\FileSplitter.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\obj\Debug\netcoreapp2.1\FileSplitter.dll
+C:\Users\Student\workspace\danmietzner-c\module-1\18_FileIO_Writing_out\student-exercise\FileSplitter\obj\Debug\netcoreapp2.1\FileSplitter.pdb
