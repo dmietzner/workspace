@@ -1,0 +1,53 @@
+﻿@model List<Product>
+@{
+    // TODO 03 Add model above
+    ViewData["Title"] = "Index";
+}
+
+<h2>Tech Elevator Hardware Store</h2>
+
+<table>
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Cost</td>
+        <td></td>
+    </tr>
+    @foreach (var product in Model)
+    {
+
+        //TODO 04. Loop through the Model showing the products.
+        <tr>
+
+            <td>@product.Id</td>
+            <td>@product.Name</td>
+            <td>@product.Cost.ToString("C")</td>
+            <td>
+                @{
+                    //TODO 05. Add form tag for submission to controller
+                }
+                <form asp-action="AddToCart" asp-controller="Store" method="post">
+                    <input type="number" name="quantity" value="10" />
+                    @* Create a hidden input field to store the product id *@
+                    <input type="hidden" asp-for="@product.Id" />
+
+                    <button>Add to Cart</button>
+                </form>
+
+            </td>
+        </tr>
+
+    }
+</table>
+
+<style>
+    td {
+        width: 200px;
+    }
+    table {
+        width: 100%;
+    }
+    tr:first-child td {
+        font-weight: bold;
+    }
+</style>
