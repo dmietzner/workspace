@@ -1,0 +1,238 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+   
+    <!-- Bulma Version 0.8.x-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.8.0/css/bulma.min.css">
+    
+    <!-- Customized Bulma Styles with different font types and color palette -->
+    <!-- Generated using SASS -->
+    <!-- <link rel="stylesheet" href="custom-bulma-styles.css"> -->
+
+    <!-- Add custom style -->
+    <style>
+        main {
+            margin-left: 0.75em;
+            margin-right: 0.75em;
+        }
+        .navbar-start>.navbar-item {
+            font-weight: 700;
+        }
+
+        .menu-list a.is-active {
+            background-color: transparent;
+            color: #276cda;
+            font-weight: 700;
+        }
+    </style>
+
+</head>
+
+<body class="has-navbar-fixed-top has-background-light">
+
+    <!-- START NAV -->
+    <nav class="navbar is-fixed-top">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item brand-text" href="#">
+                    Tech Elevator Dashboard
+                </a>
+                <div class="navbar-burger burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="#">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="#">
+                        Student View
+                    </a>
+                    <a class="navbar-item" href="#">
+                        Admin
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <!-- END NAV -->
+
+    <br />
+
+    <main>
+        <div class="container">
+            <div class="columns">
+                <!--MENU-->
+                <div class="column is-3 is-hidden-mobile">
+                    <aside class="menu">
+                        <p class="menu-label">
+                            Cohort 5
+                        </p>
+                        <ul class="menu-list">
+                            <li><a class="is-active">Dashboard</a></li>
+                            <li><a>Quizzes</a></li>
+                            <li><a>Assignments</a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <div class="column is-9">
+                    <section class="hero is-primary is-small">
+                        <div class="hero-body" style="background: linear-gradient(to right, #5B86E5, #36D1DC)">
+                            <div class="container">
+                                <h1 class="title">
+                                    Hello, Johnny.
+                                </h1>
+                                <h2 class="subtitle">
+                                    I hope you are having a great day!
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <br />
+
+                    <section>
+                        <div class="tile is-ancestor has-text-centered">
+                            <a class="tile is-parent" href="#">
+                                <article class="tile is-child box">
+                                    <p class="title">4</p>
+                                    <p class="subtitle">Instructors</p>
+                                </article>
+                            </a>
+
+                            <a class="tile is-parent" href="#">
+                                <article class="tile is-child box">
+                                    <p class="title">47</p>
+                                    <p class="subtitle">Students</p>
+                                </article>
+                            </a>
+
+                            <a class="tile is-parent" href="#">
+                                <article class="tile is-child box">
+                                    <p class="title">1k</p>
+                                    <p class="subtitle">Placements</p>
+                                </article>
+                            </a>
+
+                            <a class="tile is-parent" href="#">
+                                <article class="tile is-child box">
+                                    <p class="title">1k</p>
+                                    <p class="subtitle">Graduates</p>
+                                </article>
+                            </a>
+                        </div>
+                    </section>
+
+                    <br />
+
+                    <div class="columns">
+                        <div class="column is-6">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Assignment Search
+                                    </p>
+                                    <a href="#" class="card-header-icon" aria-label="more options">
+                                        <span class="icon">
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <div class="control has-icons-left has-icons-right">
+                                            <input class="input is-large" type="text" placeholder="">
+                                            <span class="icon is-medium is-left">
+                                                <i class="fa fa-search"></i>
+                                            </span>
+                                            <span class="icon is-medium is-right">
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div class="card">
+                                <header class="card-header">
+                                    <p class="card-header-title">
+                                        Student Search
+                                    </p>
+                                    <a href="#" class="card-header-icon" aria-label="more options">
+                                        <span class="icon">
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                        </span>
+                                    </a>
+                                </header>
+                                <div class="card-content">
+                                    <div class="content">
+                                        <div class="control has-icons-left has-icons-right">
+                                            <input class="input is-large" type="text" placeholder="">
+                                            <span class="icon is-medium is-left">
+                                                <i class="fa fa-search"></i>
+                                            </span>
+                                            <span class="icon is-medium is-right">
+                                                <i class="fa fa-check"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="content">
+                                <progress class="progress is-small is-primary" max="100">15%</progress>
+
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</abbr></th>
+                                            <th>Position</th>
+                                            <th>Registration Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Tom Anderson</td>
+                                            <td>Instructor</td>
+                                            <td>2016-12-10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Walt Impellicceiri</td>
+                                            <td>Instructor</td>
+                                            <td>2016-03-18</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Beth Campbell</td>
+                                            <td>Instructor</td>
+                                            <td>2016-06-30</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tom Medvitz</td>
+                                            <td>Instructor</td>
+                                            <td>2016-01-06</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

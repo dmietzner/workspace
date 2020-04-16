@@ -1,0 +1,56 @@
+:root {
+  --blue: #0e39c3;
+  --grey: #f2f2f4;
+  --dark-grey: rgba(50, 53, 62, 0.05);
+  --black: rgba(60, 60, 60, 1);
+  font-size: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+
+main {
+  background-color: var(--grey);
+  border: 1px solid var(--dark-grey);
+  border-radius: 5px;
+  padding: 10px;
+
+  opacity: 0.9;
+}
+
+main .container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+main .relative {
+  background-color: #fff;
+  padding: 0 1.5rem;
+  border-radius: 6px;
+  margin: 1rem;
+  flex-basis: 100%
+}
+
+main .absolute {
+  background-color: #fff;
+  padding: 20px 24px;
+  border-radius: 6px;
+  margin: 16px;
+  flex-basis: 1024px
+}
+
+@media only screen and (min-width: 725px) {
+  main .relative {
+    font-size: 1.25rem;
+    padding: 0 1em;
+    flex-basis: 45%;
+  }
+
+  main .absolute {
+    flex-basis: 500px;
+    font-size: 20px;
+  }
+}

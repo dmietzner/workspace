@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Image Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <style>
+
+    </style>
+  </head>
+  <body>
+    <h2>Art Direction</h2>
+    <picture>
+      <source media="print" srcset="img/iPhone.png">
+    
+      <source media="only screen and (max-width: 768px)"
+              srcset="img/iPhone.png" >
+    
+      <source media="only screen and (max-width: 1024px)"
+              srcset="img/iPad.jpeg">
+    
+      <img src="img/macbook.jpeg" alt="Apple Product Selection" width=200>
+    </picture>
+  </body>
+</html>
