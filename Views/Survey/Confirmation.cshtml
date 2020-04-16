@@ -1,0 +1,41 @@
+﻿@model IList<SurveyResult>
+
+@{
+    ViewData["Title"] = "Confirmation";
+
+}
+
+        <body class="backgroundcon">
+
+            <h2>Confirmation</h2>
+
+            <h3>Congrats on selling your data to the higest bidder!</h3>
+
+            <div>
+
+                @foreach (SurveyResult result in Model)
+                {
+
+                    string imgpath = "/images/parks/" + result.ParkCode + ".jpg";
+
+
+                    <img id="corona" src="@imgpath" />
+
+
+                    <div id="Oscars"><strong>Our Oscar Winning Parks: @result.ParkName</strong></div>
+
+                    <div id="Yelp">How many annoying Yelpers reviewed us: @result.Count</div>
+                }
+
+
+            </div>
+
+
+
+
+
+
+        </body>
+
+
+

@@ -1,0 +1,85 @@
+﻿@model ParkWeather
+@{
+    ViewData["Title"] = Model.Park.ParkName + "Detail";
+    string imageURL = "/images/parks/" + @Model.Park.ParkCode.ToLower() + ".jpg";
+
+}
+<style>
+    .weather-detail{
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+
+asasasasas
+<img id="detailpic" src="@imageURL" />
+<table class="table-striped">
+    <tbody>
+        <tr>
+            <th>@Model.Park.ParkName</th>
+        </tr>
+        <tr><td>@Model.Park.ParkDescription</td></tr>
+        <tr><td>State: @Model.Park.State</td></tr>
+        <tr><td>Acreage: @String.Format("{0:n0}", Model.Park.Acreage) sq/mi</td></tr>
+        <tr><td>Elevation: @String.Format("{0:n0}", Model.Park.ElevationInFeet) ft</td></tr>
+        <tr><td>Miles of Trails: @Model.Park.MilesOfTrail mi</td></tr>
+        <tr><td>No. of Campsites: @String.Format("{0:n0}", Model.Park.NumberOfCampsites) sites</td></tr>
+        <tr><td>Founded: c. @Model.Park.YearFounded</td></tr>
+        <tr><td>Annual Vistors: @String.Format("{0:n0}",@Model.Park.AnnualVisitorCount)</td></tr>
+        <tr><td>Quote: <em>@Model.Park.InspirationalQuote</em></td></tr>
+        <tr><td>Quote By: @Model.Park.InspirationalQuoteSource</td></tr>
+        <tr><td>Entry Fee: $@Model.Park.EntryFee.00</td></tr>
+        <tr><td>No. of animal species: @Model.Park.NumberOfAnimalSpecies</td></tr>
+    </tbody>
+</table>
+@{
+    foreach (Weather weather in Model.Weathers)
+    {
+        <div id="weather" class="weather-detail">
+            @{
+                <img src="@weather.DisplayWeatherImage(weather.Forecast)" />
+                <div class="temperature">
+                    <span class="high">
+                        High: 
+                    </span>
+                    @weather.ConvertToSelectedScale(weather.High, Model.TempScale).ToString("F0")° @Model.TempScale<br />
+                    <span class="low">
+                        Low:
+                    </span>
+                    @weather.ConvertToSelectedScale(weather.Low, Model.TempScale).ToString("F0")° @Model.TempScale
+                    <div class="weather-messages">
+                        @{
+                            List<string> weatherList = weather.CreateForecastMessageList(weather);
+                            foreach (String message in weatherList)
+                            {
+                                <ul>
+                                    <li>@message</li>
+                                </ul>
+                            }
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+        @*<div id="weather-info">
+                @Model.TempScale
+                @weather.Forecast
+                @weather.Low
+                @weather.High
+                @weather.FiveDayForecastValue
+            </div>*@
+    }
+    <div class="radio">
+        <form asp-controller="Home" asp-action="SaveTempChoice" method="get">
+            <input type="hidden" name="ParkCode" value="@Model.Park.ParkCode" />
+            <input type="radio" id="fahrenheit" asp-for="TempScale" value="F">
+            <label asp-for="TempScale">Fahrenheit</label>
+            <br />
+            <input type="radio" id="celsius" asp-for="TempScale" value="C">
+            <label asp-for="TempScale">Celsius</label>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+}
+
+
