@@ -1,0 +1,33 @@
+﻿@model IList<Weather>
+            @foreach (var weather in Model)
+            {               
+                   
+            if(weather.Forecast == "cloudy")
+            {
+                <img src="~/images/weather/cloudy.png" />
+            }
+            else if(weather.Forecast == "partlyCloudy")
+            {
+                <img src="~/images/weather/partlyCloudy.png" />
+            }
+            else if(weather.Forecast == "rain")
+            {
+                <img src="~/images/weather/rain.png" />
+            }
+            else if(weather.Forecast == "snow")
+            {
+                <img src="~/images/weather/snow.png" />
+            }
+            else if(weather.Forecast == "sunny")
+            {
+                <img src="~/images/weather/sunny.png" />
+            }
+            else if(weather.Forecast == "thunderstorms")
+            {
+                <img src="~/images/weather/thunderstorms.png" />
+            }
+                    @weather.Forecast
+                    @weather.Low
+                    @weather.High
+                    @weather.FiveDayForecastValue
+            }
