@@ -1,0 +1,11 @@
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\WorldGeography.deps.json
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\WorldGeography.runtimeconfig.json
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\WorldGeography.runtimeconfig.dev.json
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\WorldGeography.dll
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\bin\Debug\netcoreapp2.1\WorldGeography.pdb
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\obj\Debug\netcoreapp2.1\WorldGeography.csprojAssemblyReference.cache
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\obj\Debug\netcoreapp2.1\WorldGeography.AssemblyInfoInputs.cache
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\obj\Debug\netcoreapp2.1\WorldGeography.AssemblyInfo.cs
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\obj\Debug\netcoreapp2.1\WorldGeography.dll
+C:\Users\Student\workspace\danmietzner-c\module-2\26_Database_Connectivity_DAO\lecture-final\dotnet\WorldGeography\obj\Debug\netcoreapp2.1\WorldGeography.pdb
