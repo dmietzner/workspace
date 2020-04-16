@@ -1,0 +1,57 @@
+:root {
+    --blue: #00adee;
+    --grey: #505355;
+}
+  
+* {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+body
+{
+    display:grid;
+    grid-template-columns: 1fr 6fr 6fr 1fr;
+    grid-template-areas:
+        ". header main ."
+        ". footer footer .";      
+}
+header > img
+{
+    grid-area:header;
+    width:150%;
+
+}
+#student-profile
+{
+display:inline-flex; 
+grid-area:header;
+                
+    
+}
+#student-contact{
+}
+#experience > .i{
+}
+
+#student-picture > img{
+    border-radius:175px;
+    width:50%;
+    grid-area:header;
+}
+footer{
+    grid-area:footer;
+    font-size:small;
+}
+#student-quote{
+    grid-area:header;
+    font-size:small;
+
+}
+.headline{
+    grid-area:main;
+}
+
